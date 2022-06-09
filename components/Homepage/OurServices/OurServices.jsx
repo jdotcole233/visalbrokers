@@ -79,7 +79,7 @@ const OurServices = () => {
               </div>
               <div className="pt-5 flex flex-col py-2 gap-2 px-2">
                 <span className="text-xl">{item.title}</span>
-                <span className="text-sm text-gray-400">{item.text}</span>
+                <span className="text-sm text-gray-400 pb-5">{item.text}</span>
               </div>
           </div>
             ))}

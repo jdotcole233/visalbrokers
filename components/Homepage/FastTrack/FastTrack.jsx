@@ -68,7 +68,7 @@ const FastTrack = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <p>Be the #1 in geeting our</p>
+                    <p>Be the #1 in getting our</p>
                     <p>latest news</p>
                   </div>
                   <div>
@@ -90,8 +90,8 @@ const FastTrack = () => {
                     />
                   </div>
                   <div className="flex flex-col">
-                    <p>Be the #1 in geeting our</p>
-                    <p>latest news</p>
+                    <p>Register everywhere</p>
+                    <p>and everytime you  want</p>
                   </div>
                   <div>
                     <Image
