@@ -27,8 +27,8 @@ const Service = () => {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto">
-      <div className="grid md:grid-cols-5 py-20">
+    <div className="max-w-screen-xl mx-auto p-4">
+      <div className="grid md:grid-cols-5 md:py-20">
         <div className="col-span-3">
           <div className="grid grid-cols-2 gap-4">
             {list.map((item, index) => (

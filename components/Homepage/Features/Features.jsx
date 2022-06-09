@@ -35,7 +35,7 @@ const Features = () => {
     <div className="max-w-screen-xl mx-auto py-20">
       <div className="flex flex-col gap-3">
         <p className="uppercase text-blue-600 text-center">Features</p>
-        <p className="text-center text-3xl ">Why are we better than others?</p>
+        <p className="text-center text-3xl font-semibold ">Why are we better than others?</p>
         <p className="w-3/4 mx-auto grid grid-cols-1 text-gray-400 text-xs">
           <span className="text-center">
             To become one of the leading insurance broking and consultancy firms
