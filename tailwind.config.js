@@ -8,7 +8,8 @@ module.exports = {
       backgroundImage:{
         'heroimage':"url('/assets/hero.png')",
         'insure-bg':"url('/assets/insure.png')",
-        'woman-bg':"url('/assets/woman.png')"
+        'woman-bg':"url('/assets/woman.png')",
+        'family-bg':"url('/assets/family.png')",
       }
     },
   },
