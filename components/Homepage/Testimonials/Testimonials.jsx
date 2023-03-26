@@ -1,41 +1,203 @@
 import Image from "next/image";
 import React from "react";
 
+
+const imageLoader = require("../../../loader.js");
+
 const Testimonials = () => {
   return (
     <div className="max-w-screen-xl mx-auto px-4">
       <div className="flex flex-col items-center justify-center gap-5">
         <span className="uppercase font-light tracking-widest">
-          Testimonial
+          Our Reinsurance Partners
         </span>
         <span className="text-4xl tracking-wide">
           What Our Customers Have To Say
         </span>
-        <span className="text-sm text-gray-400">
+        <span className="text-sm text-gray-200">
           we share common trends, strategies ideas, opinion, short & log stories
           from the team and customers
         </span>
       </div>
       <div className="grid md:grid-cols-5 md:py-10">
-        <div className="col-span-2">
-            <Image src='/assets/Frame 347.png' alt='kwame' height={400} width={400} />
+        <div className="">
+          <Image
+            src="/assets/logo/Ghana Reinsurance PLC.png"
+            alt="kwame"
+            loader={imageLoader}
+            height={200}
+            width={200}
+          />
         </div>
-        <div className="col-span-3">
-            <div className="md:w-3/4">
-          <span className="text-2xl tracking-wider leading-loose">
-            Low-hanging fruit are we in agreeance, we need to leverage our
-            synergies. Put it on the parking lot drive awareness to increase
-            engagement but shelfware, yet if you could do that, that would be
-            great get all your ducks in a row.
-          </span>
-          <div className="py-10 flex justify justify-between">
-              <span className="text-2xl font-semibold">Kwame Osei</span>
-              <span className="text-gray-400 text-xl italic font-light">COO @ Africa Reinsurance Corporation</span>
-          </div>
-          <div>
-              <Image src='/assets/africare.png' alt="africare" height={40} width={180} />
-          </div>
-            </div>
+        <div className="">
+          <Image
+            src="/assets/logo/WAICA Reinsurance Corporation.png"
+            alt="kwame"
+            loader={imageLoader}
+            height={200}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Africa Reinsurance corporation.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/GN Reinsurance.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Mainstream re.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Taiping General Insurance Ltd.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/name.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Continental Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/FBS Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/W-Safe Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Swan Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/African Specialty Risk.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Cica Reinsurance Compan.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Aveni Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Nouvelle Compagnie African De Reassurance.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/SCG Gabon.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Kenya Reinsurance Corporation.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/GIC South Africa.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div>
+        <div className="">
+          <Image
+            src="/assets/logo/Oman Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
+        </div><div className="">
+          <Image
+            src="/assets/logo/Ethiopian Reinsurance Company.png"
+            alt="kwame"
+            height={200}
+            loader={imageLoader}
+            width={200}
+          />
         </div>
       </div>
     </div>

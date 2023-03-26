@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div></div>
       </div>
-      <div className="grid grid-cols-4">
+      {/* <div className="grid grid-cols-4">
         <div></div>
         <div className="col-span-4 md:col-span-3 ">
           <Image
@@ -42,7 +42,7 @@ const Hero = () => {
             width={1000}
           />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

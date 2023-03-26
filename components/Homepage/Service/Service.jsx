@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
+
+const imageLoader = require("../../../loader.js")
+
 const Service = () => {
   const list = [
     {
@@ -34,7 +37,7 @@ const Service = () => {
             {list.map((item, index) => (
               <div key={index} className="bg-gray-50 p-4 flex flex-col gap-3">
                 <div>
-                  <Image src={item?.icon} alt="icon" height={50} width={50} />
+                  <Image loader={imageLoader} src={item?.icon} alt="icon" height={50} width={50} />
                 </div>
                 <p className="text-lg">{item?.title}</p>
                 <span className="text-gray-400 ">{item?.text}</span>
@@ -45,9 +48,12 @@ const Service = () => {
         <div className="md:col-span-2 col-span-3 p-4 flex flex-col gap-5">
           <div className="flex flex-col gap-3">
             <p className="uppercase text-blue-600 tracking-widest">service</p>
-            <span className="text-3xl font-semibold">We Promise, We Will</span>
             <span className="text-3xl font-semibold">
-              Protect You From In and
+              We provide professional insurance advisory in all areas of
+              business
+            </span>
+            <span className="text-3xl font-semibold">
+              and personal possessions.
             </span>
             <span className="text-3xl font-semibold">Out</span>
           </div>
@@ -58,9 +64,11 @@ const Service = () => {
               service delivery with{" "}
             </span>
           </div>
-          <p className="px-4 py-3 bg-blue-600 rounded-full text-center w-2/4 text-white">
-            <Link href="/"><a>Learn more</a></Link>
-          </p>
+          {/* <p className="px-4 py-3 bg-blue-600 rounded-full text-center w-2/4 text-white">
+            <Link href="/">
+              <a>Learn more</a>
+            </Link>
+          </p> */}
         </div>
       </div>
     </div>

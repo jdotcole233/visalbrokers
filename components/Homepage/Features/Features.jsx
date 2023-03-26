@@ -1,41 +1,44 @@
 import Image from "next/image";
 import React from "react";
 
+const imageLoader = require("../../../loader.js")
+
 const Features = () => {
   const list = [
     {
-      title: "Ceritfied Platform",
+      title: "Loyalty",
       image: "/assets/featureicon.png",
       text: "In +30 years we have already help countless companies with insurance and become a vertified platform",
     },
     {
-      title: "Ceritfied Platform",
+      title: "Commitment",
       image: "/assets/featureicon.png",
       text: "In +30 years we have already help countless companies with insurance and become a vertified platform",
     },
     {
-      title: "Ceritfied Platform",
+      title: "Speed",
       image: "/assets/featureicon.png",
       text: "In +30 years we have already help countless companies with insurance and become a vertified platform",
     },
     {
-      title: "Ceritfied Platform",
+      title: "Professionalism",
       image: "/assets/featureicon.png",
       text: "In +30 years we have already help countless companies with insurance and become a vertified platform",
     },
     {
-      title: "Ceritfied Platform",
+      title: "Innovation",
       image: "/assets/featureicon.png",
       text: "In +30 years we have already help countless companies with insurance and become a vertified platform",
     },
-   
   ];
 
   return (
     <div className="max-w-screen-xl mx-auto py-20">
       <div className="flex flex-col gap-3">
         <p className="uppercase text-blue-600 text-center">Features</p>
-        <p className="text-center text-3xl font-semibold ">Why are we better than others?</p>
+        <p className="text-center text-3xl font-semibold ">
+          Why are we better than others?
+        </p>
         <p className="w-3/4 mx-auto grid grid-cols-1 text-gray-400 text-xs">
           <span className="text-center">
             To become one of the leading insurance broking and consultancy firms
@@ -54,9 +57,9 @@ const Features = () => {
             key={index}
             className="flex flex-col gap-3 py-5 px-3 items-center justify-center shadow-lg rounded-lg"
           >
-            <Image src={item?.image} alt="icon" height={30} width={30} />
+            <Image loader={imageLoader} src={item?.image} alt="icon" height={30} width={30} />
             <p className="font-semibold">{item?.title}</p>
-            <p className="text-xs text-gray-400 text-center">{item?.text}</p>
+            {/* <p className="text-xs text-gray-400 text-center">{item?.text}</p> */}
           </div>
         ))}
       </div>

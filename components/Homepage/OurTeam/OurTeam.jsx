@@ -1,25 +1,27 @@
 import Image from "next/image";
 import React from "react";
 
+const imageLoader = require("../../../loader.js")
+
 const OurTeam = () => {
   const people = [
     {
-      image: "/assets/Frame 125.png",
+      image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/Frame 125.png",
+      image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/Frame 125.png",
+      image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/Frame 125.png",
+      image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/Frame 125.png",
+      image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/Frame 125.png",
+      image: "/assets/DSC_6726.JPG",
     },
   ];
 
@@ -36,13 +38,17 @@ const OurTeam = () => {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {people.map((person, index) => (
-            <div key={index}>
+            <div key={index} className="relative">
               <Image
                 src={person.image}
                 alt="Vincent"
+                loader={imageLoader}
                 height={500}
                 width={350}
               />
+              {/* <div className=" right-0 left-0 -bottom-5 bg-white p-4 absolute">
+                <span>CEO</span>
+              </div> */}
             </div>
           ))}
         </div>
