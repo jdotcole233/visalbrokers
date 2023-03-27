@@ -1,58 +1,56 @@
 import Image from "next/image";
 import React from "react";
 
-
-const imageLoader = require("../../../loader.js")
+const imageLoader = require("../../../loader.js");
 
 const OurServices = () => {
-
   const list = [
     {
       title: "Fire and allied Risks",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/fire and allied risks.jpg"
+      image: "/assets/Images/fire and allied risks.jpg",
     },
     {
       title: "Assets All Risks",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Assets All risks.jpg"
+      image: "/assets/Images/Assets All risks.jpg",
     },
     {
       title: "Miscellaneous Accident",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Miscellaneous Accident.jpg"
+      image: "/assets/Images/Miscellaneous Accident.jpg",
     },
     {
       title: "Engineering comprising",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Engineering comprising.jpg"
+      image: "/assets/Images/Engineering comprising.jpg",
     },
     {
       title: "Motor",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Motor.jpg"
+      image: "/assets/Images/Motor.jpg",
     },
     {
       title: "Marine and Aviation",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/marine and aviation.jpg"
+      image: "/assets/Images/marine and aviation.jpg",
     },
     {
       title: "Combined Policies",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Combined Policies.jpg"
+      image: "/assets/Images/Combined Policies.jpg",
     },
     {
       title: "Life Insurance",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Life insurance.jpg"
+      image: "/assets/Images/Life insurance.jpg",
     },
     {
       title: "Health Insurance",
       text: "We help you desicover any protection inclusions that are ideal for you.",
-      image: "/assets/images/Health insurance.jpg"
+      image: "/assets/Images/Health insurance.jpg",
     },
-  ]
+  ];
 
   return (
     <div className="max-w-screen-xl mx-auto">

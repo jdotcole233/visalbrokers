@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const imageLoader = require("../../../loader.js")
+const imageLoader = require("../../../loader.js");
 
 const OurTeam = () => {
   const people = [
@@ -9,19 +9,19 @@ const OurTeam = () => {
       image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/DSC_6726.JPG",
+      image: "/assets/DON_1102.JPG",
     },
     {
       image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/DSC_6726.JPG",
+      image: "/assets/DON_1102.JPG",
     },
     {
       image: "/assets/DSC_6726.JPG",
     },
     {
-      image: "/assets/DSC_6726.JPG",
+      image: "/assets/DON_1102.JPG",
     },
   ];
 

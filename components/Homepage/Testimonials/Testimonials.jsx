@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 
-
 const imageLoader = require("../../../loader.js");
 
 const Testimonials = () => {
@@ -19,7 +18,7 @@ const Testimonials = () => {
           from the team and customers
         </span>
       </div>
-      <div className="grid md:grid-cols-5 md:py-10">
+      <div className="grid md:grid-cols-5 grid-cols-2 md:py-10">
         <div className="">
           <Image
             src="/assets/logo/Ghana Reinsurance PLC.png"
@@ -76,7 +75,7 @@ const Testimonials = () => {
         </div>
         <div className="">
           <Image
-            src="/assets/logo/name.png"
+            src="/assets/logo/Alltrust Insurance Company.png"
             alt="kwame"
             height={200}
             loader={imageLoader}
@@ -190,7 +189,8 @@ const Testimonials = () => {
             loader={imageLoader}
             width={200}
           />
-        </div><div className="">
+        </div>
+        <div className="">
           <Image
             src="/assets/logo/Ethiopian Reinsurance Company.png"
             alt="kwame"

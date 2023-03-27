@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "firebase deploy — only hosting"
+    "deploy": "yarn build && firebase deploy"
   },
   "dependencies": {
     "@heroicons/react": "^1.0.6",

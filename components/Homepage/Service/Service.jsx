@@ -2,29 +2,28 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
-const imageLoader = require("../../../loader.js")
+const imageLoader = require("../../../loader.js");
 
 const Service = () => {
   const list = [
     {
       title: "Fire and Allied Risks",
-      icon: "/assets/group 3.png",
+      icon: "/assets/Group 3.png",
       text: "We provide comprehensive coverage for all types of fire and allied risks.",
     },
     {
       title: "Assets All Risks",
-      icon: "/assets/group 3 (1).png",
+      icon: "/assets/Group 3 (1).png",
       text: "We provide a comprehensive range of insurance products to cover all types...",
     },
     {
       title: "Miscallaneous Accident",
-      icon: "/assets/group 3 (2).png",
+      icon: "/assets/Group 3 (2).png",
       text: "We provide comprehensive coverage for all types of accident including...",
     },
     {
       title: "Engineering Comprising",
-      icon: "/assets/group 3 (3).png",
+      icon: "/assets/Group 3 (3).png",
       text: "We provide comprehensive coverage for all types of engineering including...",
     },
   ];
@@ -37,7 +36,13 @@ const Service = () => {
             {list.map((item, index) => (
               <div key={index} className="bg-gray-50 p-4 flex flex-col gap-3">
                 <div>
-                  <Image loader={imageLoader} src={item?.icon} alt="icon" height={50} width={50} />
+                  <Image
+                    loader={imageLoader}
+                    src={item?.icon}
+                    alt="icon"
+                    height={50}
+                    width={50}
+                  />
                 </div>
                 <p className="text-lg">{item?.title}</p>
                 <span className="text-gray-400 ">{item?.text}</span>
