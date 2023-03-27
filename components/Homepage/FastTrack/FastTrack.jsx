@@ -2,8 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { ArrowRightIcon } from "@heroicons/react/outline";
 
-
-const imageLoader = require("../../../loader.js")
+const imageLoader = require("../../../loader.js");
 
 const FastTrack = () => {
   return (
@@ -35,85 +34,91 @@ const FastTrack = () => {
             African investments in Energy & Power, Construction & Engineering,
             Marine, Mining and Technology.
           </span>
-          <div className="w-4/5 mx-auto mt-10">
-            <div className="grid grid-cols-1 gap-4">
-              <div className="flex items-center gap-3">
-                <Image
-                  src="/assets/Frame 328.png"
-                  height={80}
-                  loader={imageLoader}
-                  width={80}
-                  alt="icon"
-                />
-                <div className="flex flex-col">
-                  <p>Update or change your </p>
-                  <p>current plan everytime you want</p>
-                </div>
-                <Image
-                  src="/assets/arrow_down.png"
-                  alt="arrow"
-                  height={30}
-                  loader={imageLoader}
-                  width={30}
-                />
+          {/* Services */}
+
+          <div className="grid grid-cols-1 gap-4 mt-11">
+            <div className="flex flex-row space-x-3">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-11 h-11"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                  />
+                </svg>
               </div>
-              <span className=" font-light text-gray-500 ">
-                Fast track design thinking yet quarterly sales are at an
-                all-time low I have a hard stop in an hour and half thought{" "}
-              </span>
-              <p className="flex gap-4 items-center">
-                <span>Learn more</span>
-                <ArrowRightIcon className="h-6 w-6 text-gray-500" />
-              </p>
-              <div className="divide-y">
-                <div className="flex justify-around items-center py-5 ">
-                  <div>
-                    <Image
-                      src="/assets/envelopeopen.png"
-                      alt="envelope"
-                      height={30}
-                      loader={imageLoader}
-                      width={30}
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <p>Be the #1 in getting our</p>
-                    <p>latest news</p>
-                  </div>
-                  <div>
-                    <Image
-                      src="/assets/Frame 66.png"
-                      alt="arrow"
-                      height={30}
-                      loader={imageLoader}
-                      width={30}
-                    />
-                  </div>
-                </div>
-                <div className="flex justify-around items-center py-5">
-                  <div>
-                    <Image
-                      src="/assets/envelopeopen.png"
-                      alt="envelope"
-                      loader={imageLoader}
-                      height={30}
-                      width={30}
-                    />
-                  </div>
-                  <div className="flex flex-col">
-                    <p>Register everywhere</p>
-                    <p>and everytime you want</p>
-                  </div>
-                  <div>
-                    <Image
-                      src="/assets/Frame 66.png"
-                      alt="arrow"
-                      loader={imageLoader}
-                      height={30}
-                      width={30}
-                    />
-                  </div>
-                </div>
+              <div className="flex flex-col">
+                <h1 className="font-bold">
+                  Facultative Reinsurance management
+                </h1>
+                <p className="font-light">
+                  W e provide facultative reinsurance services f o rcedants in
+                  different countries. Our expertise in this area enables us
+                  quaranteereinsurance solutions for any t y p eof risk.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-row space-x-3">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-11 h-11"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                  />
+                </svg>
+              </div>
+              <div className="flex flex-col">
+                <h1 className="font-bold">Treaty Reinsurance management</h1>
+                <p className="font-light">
+                  We provide treaty reinsurance services for both insurance and
+                  reinsurance companies in the sub region Our ability to
+                  negotiate favorable terms and secure arrangement with top
+                  notch securities helps us guarantee peace of mind for
+                  allourclients.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-row space-x-3">
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth={1.5}
+                  stroke="currentColor"
+                  className="w-11 h-11"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25"
+                  />
+                </svg>
+              </div>
+              <div className="flex flex-col">
+                <h1 className="font-bold">Claims Handling</h1>
+                <p className="font-light">
+                  Claims management is a keyaspect of our business.We work
+                  alligently with all our partners on this tront to ensure that
+                  genuine claims are not only paid but paid promotiv.
+                </p>
               </div>
             </div>
           </div>
