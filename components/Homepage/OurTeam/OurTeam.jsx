@@ -41,6 +41,12 @@ const OurTeam = () => {
       name: "Aseye Tsatsu",
       role: "Finance & Human Resource Executive",
     },
+    {
+      image: "/assets/bod.jpeg",
+      company: "VISAL INSURANCE",
+      name: "Elizabeth Dugble",
+      role: "Technical Director",
+    },
   ];
 
   return (

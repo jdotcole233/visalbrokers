@@ -16,7 +16,7 @@ const Navbar = () => {
           />
           <h2 className="font-bold ">VISAL BROKERS</h2>
         </div>
-        <div className="col-span-2 hidden md:flex">
+        <div className="col-span-2 hidden md:block">
           <ul className="flex justify-around">
             <li>
               <Link href="/">
