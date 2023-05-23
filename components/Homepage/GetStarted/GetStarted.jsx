@@ -28,16 +28,16 @@ const GetStarted = () => {
         <div className="md:w-1/2 py-20">
           <div className="flex flex-col gap-5">
             <input
-              className="rounded p-2  border-2 border-gray-400 md:w-4/5"
+              className="rounded p-2  border-2 md:opacity-100 opacity-70 border-gray-400 md:w-4/5"
               placeholder="Full name"
               type="text"
             />
             <input
-              className="rounded p-2  border-2 border-gray-400 md:w-4/5"
+              className="rounded p-2  border-2 md:opacity-100 opacity-70 border-gray-400 md:w-4/5"
               placeholder="Email Address"
               type="text"
             />
-            <select className="rounded p-2  border-2 border-gray-400 md:w-4/5">
+            <select className="rounded p-2  border-2 md:opacity-100 opacity-70 border-gray-400 md:w-4/5">
               <option value="">select</option>
             </select>
             <div>

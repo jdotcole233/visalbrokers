@@ -11,31 +11,31 @@ const GetInTouch = () => {
           <div className="md:w-4/5 mx-auto">
             <h1 className="text-white text-2xl ">Get In Touch</h1>
             <div className="grid grid-cols-1 md:pt-10 pt-5 gap-7">
-              <div className="grid grid-cols-2 gap-5">
+              <div className="grid md:grid-cols-2 gap-5">
                 <div className="grid grid-cols-1 gap-1">
                   <label className="text-white">Your name</label>
-                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 " type="text" />
+                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 opacity-10 " type="text" />
                 </div>
                 <div className="grid grid-cols-1 gap-1">
                   <label className="text-white">Your Email</label>
-                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 " type="text" />
+                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 opacity-10 " type="text" />
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-5">
                 <div className="grid grid-cols-1 gap-1">
                   <label className="text-white">Your Subject</label>
-                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 " type="text" />
+                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 opacity-10 " type="text" />
                 </div>
                 <div className="grid grid-cols-1 gap-1">
                   <label className="text-white">Contact Number</label>
-                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 " type="text" />
+                  <input className="p-2 rounded border-2 focus:outline-none border-gray-300 opacity-10 " type="text" />
                 </div>
               </div>
               <div className="grid grid-cols-1">
                 <div className="grid grid-cols-1 gap-1">
                   <label className="text-white">Your Subject</label>
                   {/* <input className="p-2 rounded border-2 focus:outline-none border-gray-300 " type="text" /> */}
-                  <textarea cols="10" rows="10"></textarea>
+                  <textarea className="opacity-10" cols="10" rows="10"></textarea>
                 </div>
 
               </div>
