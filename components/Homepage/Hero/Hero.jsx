@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className=" w-screen bg-heroimage pb-32">
+    <div className=" w-screen md:bg-heroimage pb-32">
       <div className=" md:mx-36 grid  grid-cols-4">
         <div className="py-28 col-span-4 px-6 md:col-span-3 lg:col-span-2">
           <span className="uppercase tracking-wider text-xs">
