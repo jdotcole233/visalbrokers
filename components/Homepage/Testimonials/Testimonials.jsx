@@ -1,7 +1,17 @@
 import Image from "next/image";
 import React from "react";
-
+import Slider from "react-slick";
+import { Slide } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
 const imageLoader = require("../../../loader.js");
+
+var settings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+};
 
 const Testimonials = () => {
   return (
@@ -10,15 +20,16 @@ const Testimonials = () => {
         <span className="uppercase font-light tracking-widest">
           Our Reinsurance Partners
         </span>
-        <span className="text-4xl tracking-wide">
+        {/* <span className="text-4xl tracking-wide">
           What Our Customers Have To Say
-        </span>
-        <span className="text-sm text-gray-200">
+        </span> */}
+        {/* <span className="text-sm text-gray-200">
           we share common trends, strategies ideas, opinion, short & log stories
           from the team and customers
-        </span>
+        </span> */}
       </div>
-      <div className="grid md:grid-cols-5 grid-cols-2 md:py-10">
+      <Slider {...settings}>
+        {/* <div className=""> */}
         <div className="">
           <Image
             src="/assets/logo/Ghana Reinsurance PLC.png"
@@ -199,7 +210,8 @@ const Testimonials = () => {
             width={200}
           />
         </div>
-      </div>
+        {/* </div> */}
+      </Slider>
     </div>
   );
 };

@@ -60,10 +60,10 @@ const OurServices = () => {
             Our Service
           </span>
           <span className="text-4xl font-semibold tracking-wide text-center">
-            We Provide Best Services
+            We Provide The Best Insurance Broking Services
           </span>
           <span className="text-blue-500 tracking-widest text-center">
-            We are covering all the insurance fields
+            We cover all fields of insurance
           </span>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-10 px-4 pt-20">

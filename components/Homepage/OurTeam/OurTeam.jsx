@@ -7,26 +7,44 @@ const OurTeam = () => {
   const people = [
     {
       image: "/assets/DSC_6726.JPG",
+      company: "Visal Re",
+      name: "Sam Norman Sali",
+      role: "Managing Director",
     },
     {
       image: "/assets/DON_1102.JPG",
+      company: "Visal Re",
+      name: "Aseye Yawa Bediako",
+      role: "Senior Broking Officer",
     },
     {
-      image: "/assets/DSC_6726.JPG",
+      image: "/assets/Alvan.JPG",
+      company: "VISAL INSURANCE",
+      name: "Alvan Nhyira Sali ",
+      role: "Business Development Manager",
     },
     {
-      image: "/assets/DON_1102.JPG",
+      image: "/assets/Naa.JPG",
+      company: "VISAL INSURANCE ",
+      name: "Naa Lamiley Lamptey",
+      role: "Client Relations Manager",
     },
     {
-      image: "/assets/DSC_6726.JPG",
+      image: "/assets/Bansah.JPG",
+      company: "VISAL INSURANCE",
+      name: "Christabel Bansah",
+      role: "Administrative Executive",
     },
     {
-      image: "/assets/DON_1102.JPG",
+      image: "/assets/Aseye.jpg",
+      company: "Visal Re",
+      name: "Aseye Tsatsu",
+      role: "Finance & Human Resource Executive",
     },
   ];
 
   return (
-    <div>
+    <div className="pb-11">
       <div className="max-w-screen-xl mx-auto p-4">
         <div className="flex flex-col items-center justify-center py-10 gap-3">
           <span className="uppercase tracking-widest text-blue-600 font-light ">
@@ -46,9 +64,11 @@ const OurTeam = () => {
                 height={500}
                 width={350}
               />
-              {/* <div className=" right-0 left-0 -bottom-5 bg-white p-4 absolute">
-                <span>CEO</span>
-              </div> */}
+              <div className=" right-0 left-0 flex flex-col -bottom-5 bg-white p-4 absolute">
+                <span className="font-medium">{person?.company}</span>
+                <span className="font-bold">{person?.name}</span>
+                <span className="font-light">{person?.role}</span>
+              </div>
             </div>
           ))}
         </div>

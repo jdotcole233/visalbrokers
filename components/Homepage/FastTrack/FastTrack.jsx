@@ -1,12 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import { ArrowRightIcon } from "@heroicons/react/outline";
 
 const imageLoader = require("../../../loader.js");
 
 const FastTrack = () => {
   return (
-    <div className="max-w-screen-xl mx-auto px-4">
+    <div className="max-w-screen-xl mx-auto px-4 mb-11">
       <div className="grid md:grid-cols-2">
         <div>
           <div className="flex flex-col gap-3 py-4">
@@ -18,7 +17,7 @@ const FastTrack = () => {
             <h2 className="text-4xl md:text-5xl font-semibold"></h2>
           </div>
           <Image
-            src="/assets/Frame 59.png"
+            src="/assets/301.gif"
             height={600}
             loader={imageLoader}
             width={500}
@@ -27,7 +26,7 @@ const FastTrack = () => {
         </div>
         <div className="md:pt-20">
           <span className=" font-light text-gray-500 ">
-            Visal Reinsurance Brokers provides reinsurance intermediary services
+            Visal Reinsurance(Visal Re) Brokers provides reinsurance intermediary services
             to insurance companies domiciled in Africa. Our focus is to ensure
             the adequate protection of investments fashioned for the development
             of the continent. We have provided reinsurance solutions for major
@@ -35,8 +34,12 @@ const FastTrack = () => {
             Marine, Mining and Technology.
           </span>
           {/* Services */}
-
-          <div className="grid grid-cols-1 gap-4 mt-11">
+          <div className="mt-6">
+            <h3>
+              We offer the best of reinsurance services in the below key areas.
+            </h3>
+          </div>
+          <div className="grid grid-cols-1 gap-4 mt-6">
             <div className="flex flex-row space-x-3">
               <div>
                 <svg
@@ -59,9 +62,9 @@ const FastTrack = () => {
                   Facultative Reinsurance management
                 </h1>
                 <p className="font-light">
-                  W e provide facultative reinsurance services f o rcedants in
+                  We provide facultative reinsurance services for cedants in
                   different countries. Our expertise in this area enables us
-                  quaranteereinsurance solutions for any t y p eof risk.
+                  guarantee reinsurance solutions for any type of risk.
                 </p>
               </div>
             </div>
@@ -87,10 +90,10 @@ const FastTrack = () => {
                 <h1 className="font-bold">Treaty Reinsurance management</h1>
                 <p className="font-light">
                   We provide treaty reinsurance services for both insurance and
-                  reinsurance companies in the sub region Our ability to
+                  reinsurance companies in the sub region. Our ability to
                   negotiate favorable terms and secure arrangement with top
-                  notch securities helps us guarantee peace of mind for
-                  allourclients.
+                  notch securities helps us guarantee peace of mind for all our
+                  clients.
                 </p>
               </div>
             </div>
@@ -115,9 +118,9 @@ const FastTrack = () => {
               <div className="flex flex-col">
                 <h1 className="font-bold">Claims Handling</h1>
                 <p className="font-light">
-                  Claims management is a keyaspect of our business.We work
-                  alligently with all our partners on this tront to ensure that
-                  genuine claims are not only paid but paid promotiv.
+                  Claims management is a key aspect of our business. We work
+                  deligently with all our partners on this front to ensure that
+                  genuine claims are not only paid but paid promptly.
                 </p>
               </div>
             </div>

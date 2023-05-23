@@ -55,18 +55,17 @@ const Service = () => {
             <p className="uppercase text-blue-600 tracking-widest">service</p>
             <span className="text-3xl font-semibold">
               We provide professional insurance advisory in all areas of
-              business
+              business and personal possessions.
             </span>
-            <span className="text-3xl font-semibold">
-              and personal possessions.
-            </span>
-            <span className="text-3xl font-semibold">Out</span>
+            <span className="text-3xl font-semibold"></span>
+            {/* <span className="text-3xl font-semibold">Out</span> */}
           </div>
           <div>
             <span className="text-sm text-gray-400">
               To become one of the leading insurance broking and consultancy
               firms in Ghana and West Africa by combining quality and timely
-              service delivery with{" "}
+              service delivery with professionalism in premium cost managément,
+              efficient risk management and claim management service.
             </span>
           </div>
           {/* <p className="px-4 py-3 bg-blue-600 rounded-full text-center w-2/4 text-white">
