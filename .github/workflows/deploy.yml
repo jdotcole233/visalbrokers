@@ -33,10 +33,11 @@ jobs:
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
+          password: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           source: ./out/*
           target: ${{ secrets.TARGET }}
+          strip_components: 1
       - name: Archive Production Artifact
         uses: actions/upload-artifact@v2
         with:
