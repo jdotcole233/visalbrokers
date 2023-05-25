@@ -47,6 +47,12 @@ const OurTeam = () => {
       name: "Elizabeth Dugble",
       role: "Technical Director",
     },
+    {
+      image: "/assets/vincent.jpeg",
+      company: "VISAL INSURANCE",
+      name: "Vincent Sali-Dorkpor",
+      role: "Managing Director",
+    },
   ];
 
   return (
@@ -65,6 +71,7 @@ const OurTeam = () => {
             <div key={index} className="relative">
               <Image
                 src={person.image}
+                className="object-contain"
                 alt="Vincent"
                 loader={imageLoader}
                 height={500}
