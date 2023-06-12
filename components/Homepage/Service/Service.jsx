@@ -17,7 +17,7 @@ const Service = () => {
       text: "We provide a comprehensive range of insurance products to cover all types...",
     },
     {
-      title: "Miscallaneous Accident",
+      title: "Miscellaneous Accident",
       icon: "/assets/Group 3 (2).png",
       text: "We provide comprehensive coverage for all types of accident including...",
     },
@@ -64,7 +64,7 @@ const Service = () => {
             <span className="text-sm text-gray-400">
               To become one of the leading insurance broking and consultancy
               firms in Ghana and West Africa by combining quality and timely
-              service delivery with professionalism in premium cost managément,
+              service delivery with professionalism in premium cost management,
               efficient risk management and claim management service.
             </span>
           </div>

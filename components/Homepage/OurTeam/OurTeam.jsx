@@ -12,6 +12,18 @@ const OurTeam = () => {
       role: "Managing Director",
     },
     {
+      image: "/assets/bod.jpeg",
+      company: "VISAL INSURANCE",
+      name: "Elizabeth Dugble",
+      role: "Technical Director",
+    },
+    {
+      image: "/assets/vincent.jpeg",
+      company: "VISAL INSURANCE",
+      name: "Vincent Sali-Dorkpor",
+      role: "Managing Director",
+    },
+    {
       image: "/assets/DON_1102.JPG",
       company: "Visal Re",
       name: "Aseye Yawa Bediako",
@@ -41,18 +53,6 @@ const OurTeam = () => {
       name: "Aseye Tsatsu",
       role: "Finance & Human Resource Executive",
     },
-    {
-      image: "/assets/bod.jpeg",
-      company: "VISAL INSURANCE",
-      name: "Elizabeth Dugble",
-      role: "Technical Director",
-    },
-    {
-      image: "/assets/vincent.jpeg",
-      company: "VISAL INSURANCE",
-      name: "Vincent Sali-Dorkpor",
-      role: "Managing Director",
-    },
   ];
 
   return (
@@ -68,21 +68,7 @@ const OurTeam = () => {
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {people.map((person, index) => (
-            <div key={index} className="relative">
-              <Image
-                src={person.image}
-                className="object-contain"
-                alt="Vincent"
-                loader={imageLoader}
-                height={500}
-                width={350}
-              />
-              <div className=" right-0 left-0 flex flex-col -bottom-5 bg-white p-4 absolute">
-                <span className="font-medium">{person?.company}</span>
-                <span className="font-bold">{person?.name}</span>
-                <span className="font-light">{person?.role}</span>
-              </div>
-            </div>
+            <Person key={index} person={person} />
           ))}
         </div>
       </div>
@@ -91,3 +77,24 @@ const OurTeam = () => {
 };
 
 export default OurTeam;
+
+
+const Person = ({ person }) => {
+  return (
+    <div className="relative">
+      <Image
+        src={person.image}
+        className="object-contain"
+        alt="Vincent"
+        loader={imageLoader}
+        height={500}
+        width={350}
+      />
+      <div className=" right-0 left-0 flex flex-col -bottom-5 bg-white p-4 absolute">
+        <span className="font-medium">{person?.company}</span>
+        <span className="font-bold">{person?.name}</span>
+        <span className="font-light">{person?.role}</span>
+      </div>
+    </div>
+  )
+}

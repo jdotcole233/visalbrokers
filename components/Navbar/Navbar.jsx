@@ -2,6 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 const imageLoader = require("../../loader.js");
+
+
 const Navbar = () => {
   return (
     <div className=" bg-gray-100">
